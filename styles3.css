@@ -1,0 +1,64 @@
+html {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.card-container {
+    width: 100%;
+    height: auto;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-card {
+	margin: 4em auto;
+	width: 90%;
+    max-width: 496px;
+     padding: 1rem;
+
+				span:nth-of-type(2) {
+					margin-left: 0.5em;
+					font-size: 0.8em;
+					font-weight: 300;
+					vertical-align: middle;
+					color: #838689;
+				}
+			}
+		}
+
+		h2, h3 {
+			margin: 0;
+			font-weight: 300;
+		}
+
+		h2 {
+			font-size: em(28);
+			color: #222222;
+		}
+
+		h3 {
+			font-size: em(15);
+			color: #838689;
+		}
+
+		p {
+			margin: 1.25em 0;
+			font-size: em(13);
+			font-weight: 400;
+			color: #222222;
+
+			span {
+				font-weight: 700;
+				color: #000000;
+			}
+		}
+
+	}
+
+}
