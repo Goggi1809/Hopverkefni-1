@@ -1,0 +1,48 @@
+.item1 {
+    grid-area: header;
+}
+
+.item {
+    grid-area: mynd;
+}
+
+.item6 {
+    grid-area: milli;
+}
+
+.item7 {
+    grid-area: milli2;
+}
+
+.item2 {
+    grid-area: menu;
+}
+
+.item3 {
+    grid-area: main;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+        'header header header header mynd mynd'
+        'milli milli milli milli milli milli2'
+        'menu menu menu main main main'
+        'footer footer footer footer footer footer';
+
+    grid-gap: 10px;
+    background-color: #33128f;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.959);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
