@@ -1,0 +1,23 @@
+{
+  "name": "hopverkefni-1",
+  "version": "1.0.0",
+  "description": "hopverkefni1",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --server --files hopverkefni1.html styles.css",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goggi1809/Hopverkefni-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goggi1809/Hopverkefni-1/issues"
+  },
+  "homepage": "https://github.com/Goggi1809/Hopverkefni-1#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
