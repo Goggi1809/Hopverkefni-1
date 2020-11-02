@@ -1,11 +1,72 @@
+.mynd1 {
+    position: absolute;
+    width: 1060px;
+    height: 570px;
+    left: 140px;
+    top: 80px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.00001) 0% #000000 100%);
+
+}
+
+.skuggi {
+    position: relative;
+    top: 10px;
+    right: 3px;
+
+}
+
+.skugg {
+    position: relative;
+    top: -565px;
+    left: 0px;
+    opacity: 1.2;
+
+}
+
+.hringur {
+    position: relative;
+    top: 300px;
+    left: 635px;
+
+
+}
+
+.spilari {
+    position: relative;
+    top: 250px;
+    right: -555px;
+}
+
+
+p {
+    font-size: 15px;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
+}
+
+
+.wrapper {
+    background-color: #d3c5c5;
+    display: grid;
+    grid-template-columns: 50% 170%;
+
+}
+
 html {
-	height: 100%;
+    height: 100%;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
 }
 
 .card-container {
@@ -17,48 +78,181 @@ img {
 }
 
 .recipe-card {
-	margin: 4em auto;
-	width: 90%;
+    margin: 4em auto;
+    width: 90%;
     max-width: 496px;
-     padding: 1rem;
+    padding: 1rem;
 
-				span:nth-of-type(2) {
-					margin-left: 0.5em;
-					font-size: 0.8em;
-					font-weight: 300;
-					vertical-align: middle;
-					color: #838689;
-				}
-			}
-		}
+    span:nth-of-type(2) {
+        margin-left: 0.5em;
+        font-size: 0.8em;
+        font-weight: 300;
+        vertical-align: middle;
+        color: #838689;
+    }
+}
+}
 
-		h2, h3 {
-			margin: 0;
-			font-weight: 300;
-		}
+h2,
+h3 {
+    margin: 0;
+    font-weight: 300;
 
-		h2 {
-			font-size: em(28);
-			color: #222222;
-		}
+}
 
-		h3 {
-			font-size: em(15);
-			color: #838689;
-		}
+h2 {
+    font-size: em(28);
+    color: #222222;
+}
 
-		p {
-			margin: 1.25em 0;
-			font-size: em(13);
-			font-weight: 400;
-			color: #222222;
+h3 {
+    font-size: em(15);
+    color: #9B9B9B;
+}
 
-			span {
-				font-weight: 700;
-				color: #000000;
-			}
-		}
+p {
+    margin: 1.25em 0;
+    font-size: em(13);
+    font-weight: 400;
+    color: #222222;
 
-	}
+    span {
+        font-weight: 700;
+        color: #000000;
+    }
+}
 
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    width: 1600px;
+    height: 339px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.crave {
+    color: #e3cdb1;
+    width: 246px;
+    height: 26px;
+    left: 1px;
+    top: 0px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 150px;
+    padding-top: 100px;
+
+}
+
+.subscribe {
+    width: 565px;
+    height: 53px;
+    left: 0px;
+    top: 26px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fav {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    padding-left: 300px;
+}
+
+.fav>p {
+    left: 0%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #e3cdb1;
+    padding-left: 300px;
+
+
+
+
+}
+
+.logo>p {
+    padding-top: 250px;
+    padding-left: 650px;
+    font-size: 18px;
+    font-family: Poppins;
+    line-height: 17px;
+
+}
+
+.email1 {
+    width: 200px;
+    height: 30px;
+    left: 1px;
+    top: 25px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #525252;
+    background-color: black;
+
+}
+
+.email2 {
+
+    width: 200px;
+    height: 30px;
+    left: 1px;
+    top: 25px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    align-items: center;
+    color: #ffffff;
+    background-color: black;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.oval {
+    position: relative;
+    top: 10px;
+    right: 33px;
+}
+
+.ova {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+span {
+    float: right;
+    color: #9B9B9B;
 }
