@@ -82,7 +82,7 @@ p {
   }
 }
 
-footer {
+.footer {
   color: white;
   background-color: black;
   text-align: center;
@@ -94,7 +94,7 @@ footer {
 
 }
 
-footer>h3 {
+.crave {
   color: #e3cdb1;
   width: 246px;
   height: 26px;
@@ -107,12 +107,12 @@ footer>h3 {
   line-height: 24px;
   display: flex;
   align-items: flex-end;
-
-
+  padding-left: 150px;
+  padding-top: 100px;
 
 }
 
-footer>p {
+.subscribe {
   width: 565px;
   height: 53px;
   left: 0px;
@@ -131,8 +131,8 @@ footer>p {
   right: 0%;
   top: 0%;
   bottom: 0%;
-  border: 1px solid #e3cdb1;
   box-sizing: border-box;
+  padding-left: 300px;
 }
 
 .fav>p {
@@ -145,10 +145,22 @@ footer>p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
+  align-items: center;
   color: #e3cdb1;
+  padding-left: 300px;
+
+
+
+
+}
+
+.logo>p {
+  padding-top: 250px;
+  padding-left: 650px;
+  font-size: 18px;
+  font-family: Poppins;
+  line-height: 17px;
+
 }
 
 .email1 {
@@ -161,10 +173,26 @@ footer>p {
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
-  display: flex;
-  align-items: flex-end;
+  text-align: center;
   color: #525252;
+  background-color: black;
 
+}
+
+.email2 {
+
+  width: 200px;
+  height: 30px;
+  left: 1px;
+  top: 25px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  align-items: center;
+  color: #ffffff;
+  background-color: black;
 
 }
 
